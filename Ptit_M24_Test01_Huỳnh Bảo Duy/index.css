@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a3d;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .header {
+    text-align: center;
+    background-color: #17002c;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+    color:red;
+  }
+  
+  .feedback-form {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feedback-form h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .score-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .score-item {
+    font-size: 30px;
+    color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .score-item:hover {
+    color: #9c9c9c;
+  }
+  
+  .feedback-input textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #send-feedback {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #send-feedback:hover {
+    background-color: #1b00b3;
+  }
+  
+  .feedback-list {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  .feedback-item {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .feedback-item p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .bi {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #ff0000;
+  }
+  
+  .bi:hover {
+    color: #0056b3;
+  }
+  
